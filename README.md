@@ -1,4 +1,4 @@
-#### University of Minnesota CyberSecurity Bootcamp Project 1
+### University of Minnesota CyberSecurity Bootcamp Project 1
 
 ## Automated ELK Stack Deployment
 
