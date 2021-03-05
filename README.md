@@ -32,10 +32,10 @@ The configuration details of each machine may be found below.
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
-| Jump Box | Gateway    | 10.0.0.1 | Linux            |
-| Web-1    | Web Server | 10.0.0.2 | Linux            |
-| Web-2    | Web Server | 10.0.0.3 | Linux            |
-| ELK Stack| ELK Stack  | 10.0.0.4 | Linux            |
+| Jump Box | Gateway    | 10.0.0.4 | Linux            |
+| Web-1    | Web Server | 10.0.0.6 | Linux            |
+| Web-2    | Web Server | 10.0.0.5 | Linux            |
+| ELK Stack| ELK Stack  | 10.1.0.4 | Linux            |
 
 ### Access Policies
 
@@ -52,9 +52,9 @@ A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
 | Jump Box   | Yes/No        | My personal IP Address   |
-| Web-1      | No            | 10.0.0.1 |
-| Web-2      | No            | 10.0.0.1 |
-| ELK-Server | No            | 10.0.0.1 |
+| Web-1      | No            | 10.0.0.4 |
+| Web-2      | No            | 10.0.0.4 |
+| ELK-Server | No            | 10.0.0.4 |
 
 ### Elk Configuration
 
@@ -73,8 +73,8 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-1. Web-1 10.0.0.2
-2. Web-2 10.0.0.3
+1. Web-1 10.0.0.6
+2. Web-2 10.0.0.5
 
 We have installed the following Beats on these machines:
 1. Filebeat
