@@ -1,7 +1,7 @@
 ---
 - name: Config elk VM with Docker
   hosts: elk
-  remote_user: mrbrian
+  remote_user: dthielen
   become: true
   tasks:
   - name: use more memory
